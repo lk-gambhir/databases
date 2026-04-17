@@ -14,7 +14,7 @@ const todoschema = new mongoose.Schema(
             type : mongoose.Schema.Types.ObjectId,
             ref : "User"
         },
-        subtodo : [
+        subtodo : [          //array of subtodo object
             {
                 type : mongoose.Schema.Types.ObjectId,
                 ref : "Subtodo"
